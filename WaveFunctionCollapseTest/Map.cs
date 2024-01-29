@@ -17,7 +17,7 @@ namespace WaveFunctionCollapseTest
         List<Point> availableTiles = new List<Point>();
 
 
-        const int chunkSize = 16;
+        const int chunkSize = 32;
 
         const int chunksWidth = width / chunkSize;
         const int chunksHeight = height / chunkSize;
