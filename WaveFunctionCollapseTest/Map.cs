@@ -8,8 +8,8 @@ namespace WaveFunctionCollapseTest
 {
     class Map
     {
-        public const int width = 640;
-        public const int height = 640;
+        public const int width = 160;
+        public const int height = 160;
 
         Tile[,] tiles = new Tile[width,height];
         bool[,] checks = new bool[width,height];
